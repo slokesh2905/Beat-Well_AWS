@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
+import { Heart, Github, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -24,6 +24,28 @@ const Footer: React.FC = () => {
             <p className="mt-2 text-sm text-gray-300">
               Your partner in heart health monitoring and disease prevention.
             </p>
+            <div className="mt-4 flex space-x-4">
+              <motion.a
+                href="https://github.com/slokesh2905"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-red-500 transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <Github className="h-6 w-6" />
+              </motion.a>
+              <motion.a
+                href="https://www.linkedin.com/in/lokesh-sharma-4a16ba206/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-red-500 transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <Linkedin className="h-6 w-6" />
+              </motion.a>
+            </div>
           </motion.div>
           
           <div>

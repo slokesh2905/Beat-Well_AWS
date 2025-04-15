@@ -109,7 +109,7 @@ export default function About() {
         </p>
         <div className="flex justify-center space-x-6">
           <motion.a
-            href="https://github.com/slokesh2905"
+            href="https://github.com/slokesh2905/BEat-well.git"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-600 hover:text-red-500 transition-colors"

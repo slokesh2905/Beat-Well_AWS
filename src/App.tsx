@@ -15,6 +15,7 @@ import DiseaseInfo from './pages/DiseaseInfo';
 import InfoPage from './pages/InfoPage';
 import { AuthProvider } from './contexts/AuthContext';
 import ScrollToTop from './components/ScrollToTop';
+import ChatBot from './components/ChatBot';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             </Routes>
           </main>
           <Footer />
+          <ChatBot />
         </div>
       </Router>
     </AuthProvider>

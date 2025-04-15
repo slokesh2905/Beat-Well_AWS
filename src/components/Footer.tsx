@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="mt-4 flex space-x-4">
               <motion.a
-                href="https://github.com/slokesh2905"
+                href="https://github.com/slokesh2905/BEat-well.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-500 transition-colors"
